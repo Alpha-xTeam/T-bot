@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "runtime": "python3.11",
+  "functions": {
+    "api/bot.py": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  },
+  "env": {
+    "TELEGRAM_TOKEN": "@TELEGRAM_TOKEN"
+  }
+}
